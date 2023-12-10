@@ -327,7 +327,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/LunaticTunnel"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/LNTC_BOT"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/RafanSTR18"},{"text":"ɪɴꜱᴛᴀʟʟ🐬","url":"https://t.me/RafanSTR18"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -766,11 +766,11 @@ fi
 
 clear
 # banner
-echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
-sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
+echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
+sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/kyt.txt"@g' /etc/default/dropbear
 
 # Ganti Banner
-wget -O /etc/issue.net "${REPO}limit/issue.net"
+wget -O /etc/kyt.txt "${REPO}limit/issue.net"
 print_success "Fail2ban"
 }
 
