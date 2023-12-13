@@ -18,7 +18,7 @@ NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
-ipsaya=$(wget -qO- ipinfo.io/ip)
+ipsaya=$( wget -qO- ipinfo.io/ip )
 TIMES="10"
 CHATID="6285234805"
 KEY="6623060816:AAHuRy63P5uRyujndZyhoimnWeOkl24I0n4"
@@ -26,7 +26,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
   # // Exporint IP AddressInformation
-export IP=$(curl -sS icanhazip.com)
+export IP=$( curl -sS icanhazip.com )
 
 # // Clear Data
 clear
@@ -86,11 +86,11 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 #IZIN SCRIPT
-MYIP=$(curl -sS ipv4.icanhazip.com)
+MYIP=$( curl -sS ipv4.icanhazip.com )
 echo -e "\e[32mloading...\e[0m"
 clear
 #IZIN SCRIPT
-MYIP=$(curl -sS ipv4.icanhazip.com)
+MYIP=$( curl -sS ipv4.icanhazip.com )
 echo -e "\e[32mloading...\e[0m" 
 clear
 # Version sc
