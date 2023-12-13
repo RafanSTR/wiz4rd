@@ -63,10 +63,10 @@ else
 fi
 
 # // IP Address Validating
-if [[ $IP == "" ]]; then
+if [[ $ipsaya == "" ]]; then
     echo -e "${EROR} IP Address ( ${YELLOW}Not Detected${NC} )"
 else
-    echo -e "${OK} IP Address ( ${green}$IP${NC} )"
+    echo -e "${OK} IP Address ( ${green}$ipsaya${NC} )"
 fi
 
 # // Validate Successfull
