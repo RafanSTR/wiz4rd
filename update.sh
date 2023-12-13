@@ -1,7 +1,7 @@
 #!/bin/bash
-cd /usr/local/
-rm -rf sbin
-rm -rf /usr/bin/enc
+cd /usr/local/sbin
+#rm -rf sbin
+#rm -rf /usr/bin/enc
 cd
 mkdir /usr/local/sbin
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -42,8 +42,8 @@ res1() {
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin
-    rm -rf menu
-    rm -rf menu.zip
+    #rm -rf menu
+   # rm -rf menu.zip
     rm -rf update.sh
 }
 netfilter-persistent
