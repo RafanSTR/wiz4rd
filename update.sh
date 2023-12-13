@@ -1,50 +1,50 @@
 #!/bin/bash
-rm -rf /root/menu
+#rm -rf /root/menu
 rm -rf /root/*.zip
 rm -rf /root/*.sh
 rm -rf /root/LICENSE
 rm -rf /root/README.md
 rm -rf /root/domain
-rm -rf add-bot-panel  
-rm -rf autokill          
-rm -rf cekssh         
-rm -rf delssh       
-rm -rf member
- rm -rf addhost         
- rm -rf autoreboot         
- rm -rf cektr         
- rm -rf deltr        
- rm -rf m-panel
- rm -rf  add-ip      
- rm -rf backup        
- rm -rf cekvless    
- rm -rf delvless   
- rm -rf m-sshws
- rm -rf addss         
+rm -rf /root/add-bot-panel  
+rm -rf /root/autokill          
+rm -rf /root/cekssh         
+rm -rf /root/delssh       
+rm -rf /root/member
+ rm -rf /root/addhost         
+ rm -rf /root/autoreboot         
+ rm -rf /root/cektr         
+ rm -rf /root/deltr        
+ rm -rf /root/m-panel
+ rm -rf /root/add-ip      
+ rm -rf /root/backup        
+ rm -rf /root/cekvless    
+ rm -rf /root/delvless   
+ rm -rf /root/m-sshws
+ rm -rf /root/addss         
  rm -rf 'backup.bak ASLI'  
- rm -rf cekws   
- rm -rf delws    
- rm -rf m-ssws
- rm -rf addssh  
- rm -rf bot       
- rm -rf clearcache   
- rm -rf fixcert    
- rm -rf m-trojan
- rm -rf addtr    
- rm -rf bot.sh     
- rm -rf clearlog    
- rm -rf hapus-bot  
- rm -rf m-vless
- rm -rf addvless  
- rm -rf bw         
- rm -rf del-bot-notif 
- rm -rf install.log
- rm -rf m-vmess
- rm -rf addws 
- rm -rf ceklim  
- rm -rf delexp    
- rm -rf limitspeed
-rm -rf add-bot-notif
+ rm -rf /root/cekws   
+ rm -rf /root/delws    
+ rm -rf /root/m-ssws
+ rm -rf /root/addssh  
+ rm -rf /root/bot       
+ rm -rf /root/clearcache   
+ rm -rf /root/fixcert    
+ rm -rf /root/m-trojan
+ rm -rf /root/addtr    
+ rm -rf /root/bot.sh     
+ rm -rf /root/clearlog    
+ rm -rf /root/hapus-bot  
+ rm -rf /root/m-vless
+ rm -rf /root/addvless  
+ rm -rf /root/bw         
+ rm -rf /root/del-bot-notif 
+ rm -rf /root/install.log
+ rm -rf /root/m-vmess
+ rm -rf /root/addws 
+ rm -rf /root/ceklim  
+ rm -rf /root/delexp    
+ rm -rf /root/limitspeed
+rm -rf /root/add-bot-notif
 
 rm -rf /root/*.zip
 rm -rf /root/*.sh
@@ -99,58 +99,6 @@ res1() {
     rm -rf update.sh
 }
 netfilter-persistent
-#rm -rf /root/menu
-rm -rf /root/*.zip
-rm -rf /root/*.sh
-rm -rf /root/LICENSE
-rm -rf /root/README.md
-rm -rf /root/domain
-rm -rf add-bot-panel  
-rm -rf autokill          
-rm -rf cekssh         
-rm -rf delssh       
-rm -rf member
- rm -rf addhost         
- rm -rf autoreboot         
- rm -rf cektr         
- rm -rf deltr        
- rm -rf m-panel
- rm -rf add-ip      
- rm -rf backup        
- rm -rf cekvless    
- rm -rf delvless   
- rm -rf m-sshws
- rm -rf addss         
- rm -rf 'backup.bak ASLI'  
- rm -rf cekws   
- rm -rf delws    
- rm -rf m-ssws
- rm -rf addssh  
- rm -rf bot       
- rm -rf clearcache   
- rm -rf fixcert    
- rm -rf m-trojan
- rm -rf addtr    
- rm -rf bot.sh     
- rm -rf clearlog    
- rm -rf hapus-bot  
- rm -rf m-vless
- rm -rf addvless  
- rm -rf bw         
- rm -rf del-bot-notif 
- rm -rf install.log
- rm -rf m-vmess
- rm -rf addws 
- rm -rf ceklim  
- rm -rf delexp    
- rm -rf limitspeed
-rm -rf add-bot-notif
-
-rm -rf /root/*.zip
-rm -rf /root/*.sh
-rm -rf /root/LICENSE
-rm -rf /root/README.md
-rm -rf /root/domain
 cd /usr/local/
 rm -rf sbin
 rm -rf /usr/bin/enc
