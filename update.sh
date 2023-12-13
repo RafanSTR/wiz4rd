@@ -1,4 +1,56 @@
 #!/bin/bash
+rm -rf /root/menu
+rm -rf /root/*.zip
+rm -rf /root/*.sh
+rm -rf /root/LICENSE
+rm -rf /root/README.md
+rm -rf /root/domain
+rm -rf add-bot-panel  
+rm -rf autokill          
+rm -rf cekssh         
+rm -rf delssh       
+rm -rf member
+ rm -rf addhost         
+ rm -rf autoreboot         
+ rm -rf cektr         
+ rm -rf deltr        
+ rm -rf m-panel
+ rm -rf  add-ip      
+ rm -rf backup        
+ rm -rf cekvless    
+ rm -rf delvless   
+ rm -rf m-sshws
+ rm -rf addss         
+ rm -rf 'backup.bak ASLI'  
+ rm -rf cekws   
+ rm -rf delws    
+ rm -rf m-ssws
+ rm -rf addssh  
+ rm -rf bot       
+ rm -rf clearcache   
+ rm -rf fixcert    
+ rm -rf m-trojan
+ rm -rf addtr    
+ rm -rf bot.sh     
+ rm -rf clearlog    
+ rm -rf hapus-bot  
+ rm -rf m-vless
+ rm -rf addvless  
+ rm -rf bw         
+ rm -rf del-bot-notif 
+ rm -rf install.log
+ rm -rf m-vmess
+ rm -rf addws 
+ rm -rf ceklim  
+ rm -rf delexp    
+ rm -rf limitspeed
+rm -rf add-bot-notif
+
+rm -rf /root/*.zip
+rm -rf /root/*.sh
+rm -rf /root/LICENSE
+rm -rf /root/README.md
+rm -rf /root/domain
 cd /usr/local/
 rm -rf sbin
 rm -rf /usr/bin/enc
@@ -47,6 +99,61 @@ res1() {
     rm -rf update.sh
 }
 netfilter-persistent
+rm -rf /root/menu
+rm -rf /root/*.zip
+rm -rf /root/*.sh
+rm -rf /root/LICENSE
+rm -rf /root/README.md
+rm -rf /root/domain
+rm -rf add-bot-panel  
+rm -rf autokill          
+rm -rf cekssh         
+rm -rf delssh       
+rm -rf member
+ rm -rf addhost         
+ rm -rf autoreboot         
+ rm -rf cektr         
+ rm -rf deltr        
+ rm -rf m-panel
+ rm -rf  add-ip      
+ rm -rf backup        
+ rm -rf cekvless    
+ rm -rf delvless   
+ rm -rf m-sshws
+ rm -rf addss         
+ rm -rf 'backup.bak ASLI'  
+ rm -rf cekws   
+ rm -rf delws    
+ rm -rf m-ssws
+ rm -rf addssh  
+ rm -rf bot       
+ rm -rf clearcache   
+ rm -rf fixcert    
+ rm -rf m-trojan
+ rm -rf addtr    
+ rm -rf bot.sh     
+ rm -rf clearlog    
+ rm -rf hapus-bot  
+ rm -rf m-vless
+ rm -rf addvless  
+ rm -rf bw         
+ rm -rf del-bot-notif 
+ rm -rf install.log
+ rm -rf m-vmess
+ rm -rf addws 
+ rm -rf ceklim  
+ rm -rf delexp    
+ rm -rf limitspeed
+rm -rf add-bot-notif
+
+rm -rf /root/*.zip
+rm -rf /root/*.sh
+rm -rf /root/LICENSE
+rm -rf /root/README.md
+rm -rf /root/domain
+cd /usr/local/
+rm -rf sbin
+rm -rf /usr/bin/enc
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          UPDATE SCRIPT       \e[0m"
