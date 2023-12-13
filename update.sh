@@ -1,10 +1,4 @@
 #!/bin/bash
-#rm -rf /root/menu
-rm -rf /root/*.zip
-rm -rf /root/*.sh
-rm -rf /root/LICENSE
-rm -rf /root/README.md
-rm -rf /root/domain
 rm -rf /root/add-bot-panel  
 rm -rf /root/autokill          
 rm -rf /root/cekssh         
@@ -46,11 +40,11 @@ rm -rf /root/member
  rm -rf /root/limitspeed
 rm -rf /root/add-bot-notif
 
-rm -rf /root/*.zip
-rm -rf /root/*.sh
-rm -rf /root/LICENSE
-rm -rf /root/README.md
-rm -rf /root/domain
+#rm -rf /root/*.zip
+#rm -rf /root/*.sh
+#rm -rf /root/LICENSE
+#rm -rf /root/README.md
+#rm -rf /root/domain
 cd /usr/local/
 rm -rf sbin
 rm -rf /usr/bin/enc
