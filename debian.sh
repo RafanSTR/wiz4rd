@@ -26,7 +26,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
   # // Exporint IP AddressInformation
-export IP=$(wget -qO- ipinfo.io/ip)
+export IP=$( wget -qO- ipinfo.io/ip )
 
 # // Clear Data
 clear
@@ -63,10 +63,10 @@ else
 fi
 
 # // IP Address Validating
-if [[ $ipsaya == "" ]]; then
+if [[ $IP == "" ]]; then
     echo -e "${EROR} IP Address ( ${YELLOW}Not Detected${NC} )"
 else
-    echo -e "${OK} IP Address ( ${green}$ipsaya${NC} )"
+    echo -e "${OK} IP Address ( ${green}$IP${NC} )"
 fi
 
 # // Validate Successfull
