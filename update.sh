@@ -99,7 +99,7 @@ res1() {
     rm -rf update.sh
 }
 netfilter-persistent
-rm -rf /root/menu
+#rm -rf /root/menu
 rm -rf /root/*.zip
 rm -rf /root/*.sh
 rm -rf /root/LICENSE
@@ -115,7 +115,7 @@ rm -rf member
  rm -rf cektr         
  rm -rf deltr        
  rm -rf m-panel
- rm -rf  add-ip      
+ rm -rf add-ip      
  rm -rf backup        
  rm -rf cekvless    
  rm -rf delvless   
